@@ -1,0 +1,84 @@
+div {
+    text-align: center;
+    justify-content: center;
+}
+
+.viewport {
+    height: 80px;
+    width: 250px;
+    background-color: rgb(216, 229, 231);
+}
+
+.calculatorBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.numberButtonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.numberSet {
+    display: flex;
+}
+
+.numberBtn {
+    height: 50px;
+    width: 50px;
+    background-color: powderblue;
+
+}
+
+#clearBtn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(167, 0, 0);
+}
+
+#zeroBtn {
+    height: 50px;
+    width: 50px;
+    background-color: powderblue;
+
+}
+
+#decimalBtn {
+    flex: none;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(51, 62, 63);
+}
+
+
+.commandButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+#equalsBtn {
+    background-color: rgb(192, 212, 214);
+    flex: 1;
+}
+
+.operatorBtn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(236, 144, 24);
+}
+
+.deleterBtn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(236, 144, 24);
+}
+
+.commandButtons {
+    display: flex;
+    flex-direction: row;
+}

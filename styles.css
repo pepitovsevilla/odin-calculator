@@ -1,84 +1,81 @@
 div {
-    text-align: center;
-    justify-content: center;
-}
+      justify-content: center;
+      text-align: center;
+  }
 
-.viewport {
+  #viewport2 {
+    background-color: rgb(186, 218, 223);
     height: 80px;
-    width: 250px;
-    background-color: rgb(216, 229, 231);
-}
+    justify-content: right;
+    text-align: right;
+    width: 250px;}
 
+#viewport1 {
+      background-color: rgb(216, 229, 231);
+      height: 80px;
+      justify-content: right;
+      text-align: right;
+      width: 250px;
+  }
 .calculatorBody {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
 .btnContainer {
-    display: flex;
-}
-
+      display: flex;
+  }
 .numberButtonsContainer {
-    display: flex;
-    flex-direction: column;
-}
-
+      display: flex;
+      flex-direction: column;
+  }
 .numberSet {
-    display: flex;
-}
-
+      display: flex;
+  }
 .numberBtn {
-    height: 50px;
-    width: 50px;
-    background-color: powderblue;
-
-}
-
+      background-color: powderblue;
+      height: 50px;
+      width: 50px;
+  }
 #clearBtn {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(167, 0, 0);
-}
-
+      background-color: rgb(167, 0, 0);
+      height: 50px;
+      width: 50px;
+  }
 #zeroBtn {
-    height: 50px;
-    width: 50px;
-    background-color: powderblue;
-
-}
-
+      background-color: powderblue;
+      height: 50px;
+      width: 50px;
+  }
 #decimalBtn {
-    flex: none;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(51, 62, 63);
-}
-
-
+      background-color: rgb(51, 62, 63);
+      flex: none;
+      height: 50px;
+      width: 50px;
+  }
+#deleteBtn {
+      background-color: rgb(212, 57, 57);
+      height: 50px;
+      width: 50px;
+  }
 .commandButtons {
-    display: flex;
-    flex-direction: column;
-}
-
+      display: flex;
+      flex-direction: column;
+  }
 #equalsBtn {
-    background-color: rgb(192, 212, 214);
-    flex: 1;
-}
-
+      background-color: rgb(187, 228, 231);
+      flex: 1;
+  }
 .operatorBtn {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(236, 144, 24);
-}
-
-.deleterBtn {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(236, 144, 24);
-}
-
+      background-color: rgb(236, 144, 24);
+      height: 50px;
+      width: 50px;
+  }
 .commandButtons {
-    display: flex;
-    flex-direction: row;
-}
+      display: flex;
+      flex-direction: row;
+  }
+.cmdSet2 {
+      display: flex;
+      flex-direction: column;
+  }
